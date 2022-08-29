@@ -1,0 +1,64 @@
+.navbar a{
+    color: #fff;
+}
+.navbar h4{
+    color: #fff;
+}
+
+/* contain */
+
+.contain {
+    display: flex;
+    margin-top: 40px;
+}
+.fa-trash{
+    margin-right: 7px;
+}
+.box-1{
+    height:auto;
+    padding:30px;
+    flex-grow: 1;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.box-1 button{
+    float: left;
+}
+
+/* box -1 end here  */
+.box-2{
+    height:560px;  ;
+    padding:30px;
+    flex-basis: 40%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}   
+.box-2 button{
+    float: right;
+}
+
+
+li{
+    padding:21px;
+    margin-top: 60px;;
+    background-color:aliceblue;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    list-style: none;
+   
+}
+li:hover{
+    padding:21px;
+    /* background-color:a */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.dbtn{
+    float: right;
+    color:red;
+    position: relative;
+    bottom: 40px;
+}
+.check{
+   font-size:15px;
+   color:white;
+   background-color:black;
+   position: relative;
+   bottom: 40px;
+}
